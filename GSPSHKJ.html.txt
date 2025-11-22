@@ -1,0 +1,2004 @@
+<html lang="pt-BR"><head>
+  <style>
+    :root {
+      --primary: 283 97% 59%;
+      --secondary: 259 60% 46%;
+
+      --background: 240 10% 4%;
+      --foreground: 0 0% 98%;
+
+      --border: 0 0% 13%;
+
+      --muted: 240 11% 9%;
+      --muted-foreground: 240 5% 65%;
+
+      --radius: 1rem;
+    }
+
+    html {
+      background-color: hsl(var(--background));
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Geist', sans-serif;
+    }
+  </style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="robots" content="index, nofollow">
+  <meta property="twitter:image" content="https://cdn.centralcart.com.br/stores/12116/theme/4f3bdba7-7979-4f2e-8eed-3b2c7da5c938.png">
+  <meta property="twitter:card" content="summary">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Home - Bloxrealm">
+  <meta property="og:site_name" content="Bloxrealm">
+  <meta property="og:description" content="Sua loja confiável de contas exclusivas e gamepasses de Roblox! 🚀
+Aqui você encontra tudo o que precisa para melhorar sua gameplay: contas raras, itens especiais e os melhores gamepasses para vários jogos, incluindo Blox Fruits e muitos outros.">
+  <meta property="og:image" content="https://cdn.centralcart.com.br/stores/12116/theme/4f3bdba7-7979-4f2e-8eed-3b2c7da5c938.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="627">
+  <meta name="description" content="Sua loja confiável de contas exclusivas e gamepasses de Roblox! 🚀
+Aqui você encontra tudo o que precisa para melhorar sua gameplay: contas raras, itens especiais e os melhores gamepasses para vários jogos, incluindo Blox Fruits e muitos outros.">
+  <meta name="keywords" content="Bloxrealm, Loja Bloxrealm, Servidor Bloxrealm, Cidade Bloxrealm, Central Cart">
+
+  <style type="text/css" id="operaUserStyle"></style><style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}
+      *{border-color:hsl(var(--border))}
+
+      body {
+        color: lch(from hsl(var(--background)) calc((49.44 - l) * infinity) 0 0);
+        background-color:hsl(var(--background));
+        color:hsl(var(--foreground));
+      }
+
+      input, select {
+        color: lch(from hsl(var(--background)) calc((49.44 - l) * infinity) 0 0);
+        height:2rem;
+        -webkit-appearance:none;
+                appearance:none;
+        border-radius:0.375rem;
+        border-width:1px;
+        background-color:hsl(var(--background));
+        padding-left:0.5rem;
+        padding-right:0.5rem;
+        font-size:0.875rem;
+        line-height:1.25rem;
+        font-weight:500;
+        color:hsl(var(--foreground));
+      }
+
+      input:focus-visible, select:focus-visible {
+        outline: none;
+        --tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+        --tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+        box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+        --tw-ring-color:hsl(var(--primary));
+      }
+
+      .bg-primary {
+        color: lch(from hsl(var(--primary)) calc((49.44 - l) * infinity) 0 0);
+      }
+
+      .bg-background {
+        color: lch(from hsl(var(--background)) calc((49.44 - l) * infinity) 0 0);
+      }.container{width:100%;padding-right:1rem;padding-left:1rem}@media (min-width: 640px){.container{max-width:640px;padding-right:2rem;padding-left:2rem}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.bottom-20{bottom:5rem}.bottom-36{bottom:9rem}.bottom-4{bottom:1rem}.right-4{right:1rem}.bottom-0{bottom:0px}.left-0{left:0px}.left-3{left:0.75rem}.right-6{right:1.5rem}.top-0{top:0px}.top-1\/2{top:50%}.top-12{top:3rem}.top-6{top:1.5rem}.-top-\[26rem\]{top:-26rem}.left-1\/2{left:50%}.top-\[36rem\]{top:36rem}.-top-3{top:-0.75rem}.z-50{z-index:50}.z-10{z-index:10}.z-20{z-index:20}.z-\[-10\]{z-index:-10}.z-\[1\]{z-index:1}.mx-8{margin-left:2rem;margin-right:2rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-2{margin-left:0.5rem}.ms-4{margin-inline-start:1rem}.mt-4{margin-top:1rem}.mt-auto{margin-top:auto}.mb-4{margin-bottom:1rem}.mt-12{margin-top:3rem}.mb-10{margin-bottom:2.5rem}.mt-1{margin-top:0.25rem}.mb-2{margin-bottom:0.5rem}.mt-16{margin-top:4rem}.mt-6{margin-top:1.5rem}.mb-6{margin-bottom:1.5rem}.mr-2{margin-right:0.5rem}.mt-10{margin-top:2.5rem}.mt-2{margin-top:0.5rem}.ml-4{margin-left:1rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.aspect-\[292\/164\]{aspect-ratio:292/164}.size-\[45rem\]{width:45rem;height:45rem}.size-5{width:1.25rem;height:1.25rem}.h-14{height:3.5rem}.h-10{height:2.5rem}.h-4{height:1rem}.h-6{height:1.5rem}.h-9{height:2.25rem}.h-\[50vh\]{height:50vh}.h-full{height:100%}.h-\[10rem\]{height:10rem}.h-\[1px\]{height:1px}.h-5{height:1.25rem}.h-12{height:3rem}.h-3{height:0.75rem}.h-screen{height:100vh}.h-8{height:2rem}.max-h-\[400px\]{max-height:400px}.min-h-screen{min-height:100vh}.min-h-\[300px\]{min-height:300px}.w-14{width:3.5rem}.w-10{width:2.5rem}.w-4{width:1rem}.w-6{width:1.5rem}.w-9{width:2.25rem}.w-\[120px\]{width:120px}.w-\[460px\]{width:460px}.w-fit{width:-moz-fit-content;width:fit-content}.w-full{width:100%}.w-\[35rem\]{width:35rem}.w-5{width:1.25rem}.w-12{width:3rem}.w-16{width:4rem}.w-\[500px\]{width:500px}.w-screen{width:100vw}.w-auto{width:auto}.max-w-screen-2xl{max-width:1536px}.max-w-screen-xl{max-width:1280px}.max-w-7xl{max-width:80rem}.max-w-\[180px\]{max-width:180px}.flex-1{flex:1 1 0%}.-translate-y-1\/2{--tw-translate-y:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-full{--tw-translate-y:100%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-10{--tw-translate-y:2.5rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-x-\[-420\%\]{--tw-translate-x:-420%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-rows-\[0fr\]{grid-template-rows:0fr}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.place-items-end{place-items:end}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1\.5{gap:0.375rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-10{gap:2.5rem}.gap-8{gap:2rem}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-12 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(3rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(3rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.whitespace-nowrap{white-space:nowrap}.rounded-full{border-radius:9999px}.rounded-2xl{border-radius:1rem}.rounded-md{border-radius:0.375rem}.rounded-xl{border-radius:0.75rem}.rounded-lg{border-radius:0.5rem}.border-4{border-width:4px}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-b-4{border-bottom-width:4px}.border-t{border-top-width:1px}.border-t-4{border-top-width:4px}.border-l{border-left-width:1px}.border-blue-500{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.border-border{border-color:hsl(var(--border))}.border-primary\/20{border-color:hsl(var(--primary) / 0.2)}.border-\[\#0082e5\]{--tw-border-opacity:1;border-color:rgb(0 130 229 / var(--tw-border-opacity, 1))}.border-blue-400{--tw-border-opacity:1;border-color:rgb(96 165 250 / var(--tw-border-opacity, 1))}.border-blue-100{--tw-border-opacity:1;border-color:rgb(219 234 254 / var(--tw-border-opacity, 1))}.border-b-primary{border-bottom-color:hsl(var(--primary))}.bg-\[\#25D366\]{--tw-bg-opacity:1;background-color:rgb(37 211 102 / var(--tw-bg-opacity, 1))}.bg-\[\#E1306C\]{--tw-bg-opacity:1;background-color:rgb(225 48 108 / var(--tw-bg-opacity, 1))}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229 / var(--tw-bg-opacity, 1))}.bg-\[\#002d51\]{--tw-bg-opacity:1;background-color:rgb(0 45 81 / var(--tw-bg-opacity, 1))}.bg-primary{background-color:hsl(var(--primary))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-background{background-color:hsl(var(--background))}.bg-primary\/20{background-color:hsl(var(--primary) / 0.2)}.bg-muted\/30{background-color:hsl(var(--muted) / 0.3)}.bg-primary\/10{background-color:hsl(var(--primary) / 0.1)}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-bl{background-image:linear-gradient(to bottom left, var(--tw-gradient-stops))}.bg-gradient-to-t{background-image:linear-gradient(to top, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-primary{--tw-gradient-from:hsl(var(--primary)) var(--tw-gradient-from-position);--tw-gradient-to:hsl(var(--primary) / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-primary\/20{--tw-gradient-from:hsl(var(--primary) / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:hsl(var(--primary) / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-black\/90{--tw-gradient-from:rgb(0 0 0 / 0.9) var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-primary\/5{--tw-gradient-from:hsl(var(--primary) / 0.05) var(--tw-gradient-from-position);--tw-gradient-to:hsl(var(--primary) / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-black{--tw-gradient-from:#000 var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-\[\#5cb7ff\]{--tw-gradient-to:#5cb7ff var(--tw-gradient-to-position)}.to-transparent{--tw-gradient-to:transparent var(--tw-gradient-to-position)}.to-\[\#8accff\]{--tw-gradient-to:#8accff var(--tw-gradient-to-position)}.to-primary\/70{--tw-gradient-to:hsl(var(--primary) / 0.7) var(--tw-gradient-to-position)}.to-primary\/10{--tw-gradient-to:hsl(var(--primary) / 0.1) var(--tw-gradient-to-position)}.to-blue-800{--tw-gradient-to:#1e40af var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.object-contain{object-fit:contain}.object-cover{object-fit:cover}.p-2{padding:0.5rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.px-12{padding-left:3rem;padding-right:3rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.pl-4{padding-left:1rem}.ps-8{padding-inline-start:2rem}.pb-12{padding-bottom:3rem}.pt-6{padding-top:1.5rem}.pb-2{padding-bottom:0.5rem}.text-left{text-align:left}.text-center{text-align:center}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-2xl{font-size:1.5rem;line-height:2rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-6xl{font-size:3.75rem;line-height:1}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.tracking-tight{letter-spacing:-0.025em}.tracking-wider{letter-spacing:0.05em}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-\[\#FFC300\]{--tw-text-opacity:1;color:rgb(255 195 0 / var(--tw-text-opacity, 1))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.text-muted-foreground\/60{color:hsl(var(--muted-foreground) / 0.6)}.text-foreground{color:hsl(var(--foreground))}.text-primary{color:hsl(var(--primary))}.text-transparent{color:transparent}.text-muted-foreground{color:hsl(var(--muted-foreground))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21 / var(--tw-text-opacity, 1))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-0{opacity:0}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow{--tw-shadow:0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.ring-\[\#002d51\]{--tw-ring-opacity:1;--tw-ring-color:rgb(0 45 81 / var(--tw-ring-opacity, 1))}.ring-offset-2{--tw-ring-offset-width:2px}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-200{transition-duration:200ms}.duration-300{transition-duration:300ms}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}
+    .placeholder\:text-gray-500::placeholder{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}
+    .hover\:scale-110:hover{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+    .hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+    .hover\:bg-\[\#25D366\]\/85:hover{background-color:rgb(37 211 102 / 0.85)}
+    .hover\:bg-\[\#E1306C\]\/85:hover{background-color:rgb(225 48 108 / 0.85)}
+    .hover\:bg-indigo-700:hover{--tw-bg-opacity:1;background-color:rgb(67 56 202 / var(--tw-bg-opacity, 1))}
+    .hover\:bg-secondary\/85:hover{background-color:hsl(var(--secondary) / 0.85)}
+    .hover\:bg-white\/85:hover{background-color:rgb(255 255 255 / 0.85)}
+    .hover\:bg-white\/90:hover{background-color:rgb(255 255 255 / 0.9)}
+    .hover\:text-white\/80:hover{color:rgb(255 255 255 / 0.8)}
+    .hover\:text-blue-200:hover{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}
+    .hover\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}
+    .hover\:opacity-90:hover{opacity:0.9}
+    .hover\:ring-2:hover{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}
+    .group:hover .group-hover\:translate-y-0{--tw-translate-y:0px;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+    .group:hover .group-hover\:scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}
+    .group:hover .group-hover\:underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}
+    .group:hover .group-hover\:opacity-100{opacity:1}
+    @media not all and (min-width: 640px){.max-sm\:absolute{position:absolute}.max-sm\:right-1\/2{right:50%}.max-sm\:translate-x-1\/2{--tw-translate-x:50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.max-sm\:text-\[13px\]{font-size:13px}}
+    @media (min-width: 640px){.sm\:bottom-24{bottom:6rem}.sm\:bottom-44{bottom:11rem}.sm\:bottom-6{bottom:1.5rem}.sm\:right-5{right:1.25rem}.sm\:mx-2{margin-left:0.5rem;margin-right:0.5rem}.sm\:mt-8{margin-top:2rem}.sm\:inline{display:inline}.sm\:flex{display:flex}.sm\:hidden{display:none}.sm\:h-16{height:4rem}.sm\:w-16{width:4rem}.sm\:w-auto{width:auto}.sm\:w-\[440px\]{width:440px}.sm\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:gap-6{gap:1.5rem}.sm\:space-y-20 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(5rem * var(--tw-space-y-reverse))}.sm\:rounded-t-3xl{border-top-left-radius:1.5rem;border-top-right-radius:1.5rem}.sm\:px-3{padding-left:0.75rem;padding-right:0.75rem}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}.sm\:text-8xl{font-size:6rem;line-height:1}}
+    @media (min-width: 768px){.md\:block{display:block}.md\:hidden{display:none}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:px-8{padding-left:2rem;padding-right:2rem}}
+    @media (min-width: 1024px){.lg\:col-span-3{grid-column:span 3 / span 3}.lg\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}
+  </style></head><body class="antialiased"><a href="https://discord.com/invite/2HRhq8WEa6" target="_blank" class="fixed bottom-20 right-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full w-14 h-14 sm:w-16 sm:h-16 sm:bottom-24 sm:right-5 flex items-center justify-center shadow-lg transition-transform transform hover:scale-110 z-50">
+    <i class="fab fa-discord text-3xl sm:text-3xl"></i>
+</a>
+
+<a href="https://www.instagram.com/bloxrealm_ofc/" target="_blank" class="fixed bottom-36 right-4 bg-[#E1306C] hover:bg-[#E1306C]/85 text-white rounded-full w-14 h-14 sm:w-16 sm:h-16 sm:bottom-44 sm:right-5 flex items-center justify-center shadow-lg transition-transform transform hover:scale-110 z-50">
+    <i class="fab fa-instagram text-3xl sm:text-4xl"></i>
+</a>
+
+<a href="https://wa.me/message/FSMGB7GVPVSUK1" target="_blank" aria-label="WhatsApp" class="fixed bottom-4 right-4 bg-[#25D366] hover:bg-[#25D366]/85 text-white rounded-full w-14 h-14 sm:w-16 sm:h-16 sm:bottom-6 sm:right-5 flex items-center justify-center shadow-lg transition-transform transform hover:scale-110 z-50">
+    <i class="fab fa-whatsapp text-3xl sm:text-4xl"></i>
+</a>
+
+  <link rel="icon" type="image/x-icon" href="https://cdn.centralcart.com.br/stores/12116/theme/eebfb32f-3035-4723-9a10-95dd9fb02da6.png">
+  
+  <title>Home - Bloxrealm</title>
+
+  <script src="https://connect.facebook.net/signals/config/811226028226241?v=2.9.243&amp;r=stable&amp;domain=bloxrealm.com.br&amp;hme=fdfab1132115f4ac7aabc9fd7eee63947594f6e6f1735b47a225dd71217525d3&amp;ex_m=89%2C147%2C127%2C18%2C65%2C66%2C120%2C61%2C41%2C121%2C70%2C60%2C134%2C78%2C13%2C88%2C26%2C115%2C108%2C68%2C71%2C114%2C131%2C97%2C136%2C7%2C3%2C4%2C6%2C5%2C2%2C79%2C87%2C137%2C214%2C158%2C55%2C216%2C217%2C48%2C173%2C25%2C67%2C222%2C221%2C161%2C28%2C54%2C8%2C57%2C83%2C84%2C85%2C90%2C111%2C27%2C24%2C113%2C110%2C109%2C128%2C69%2C130%2C129%2C43%2C53%2C105%2C12%2C133%2C38%2C203%2C205%2C168%2C21%2C22%2C23%2C15%2C16%2C37%2C33%2C35%2C34%2C74%2C80%2C82%2C95%2C119%2C122%2C39%2C96%2C19%2C17%2C101%2C62%2C31%2C124%2C123%2C125%2C116%2C20%2C30%2C52%2C94%2C132%2C63%2C14%2C126%2C29%2C183%2C154%2C275%2C201%2C145%2C186%2C179%2C155%2C92%2C112%2C73%2C103%2C47%2C40%2C102%2C107%2C51%2C58%2C42%2C98%2C46%2C49%2C45%2C86%2C135%2C0%2C106%2C11%2C104%2C9%2C1%2C50%2C81%2C56%2C59%2C100%2C77%2C76%2C44%2C117%2C75%2C72%2C64%2C99%2C91%2C36%2C118%2C32%2C93%2C10%2C138" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script>
+    // Suprimir aviso de produção para sistema de templates
+    if (typeof window !== 'undefined') {
+      const originalWarn = console.warn;
+      console.warn = function(...args) {
+        if (args[0] && args[0].includes && args[0].includes('cdn.tailwindcss.com should not be used in production')) {
+          return; // Suprimir este aviso específico
+        }
+        originalWarn.apply(console, args);
+      };
+    }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="https://bloxrealm.com.br/styles/drawer.css">
+  <link rel="stylesheet" type="text/css" href="https://bloxrealm.com.br/styles/core.css">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: 'hsl(var(--primary))',
+            secondary: 'hsl(var(--secondary))',
+
+            background: 'hsl(var(--background))',
+            foreground: 'hsl(var(--foreground))',
+
+            border: 'hsl(var(--border))',
+            muted: 'hsl(var(--muted))',
+            'muted-foreground': 'hsl(var(--muted-foreground))'
+          }
+        },
+        container: {
+          padding: {
+            DEFAULT: '1rem',
+            sm: '2rem',
+          },
+        },
+      },
+    }
+  </script>
+
+  <style type="text/tailwindcss">
+    @layer base {
+      * {
+        @apply border-border;
+      }
+
+      body {
+        @apply bg-background text-foreground;
+      }
+
+      input, select {
+        @apply appearance-none bg-background border rounded-md font-medium text-foreground px-2 h-8 text-sm;
+      }
+
+      input:focus-visible, select:focus-visible {
+        outline: none;
+        @apply ring-2 ring-primary;
+      }
+
+      .bg-primary {
+        color: lch(from hsl(var(--primary)) calc((49.44 - l) * infinity) 0 0);
+      }
+
+      .bg-background {
+        color: lch(from hsl(var(--background)) calc((49.44 - l) * infinity) 0 0);
+      }
+    }
+  </style>
+
+        <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '811226028226241');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=811226028226241&ev=PageView&noscript=1"
+        /></noscript>
+        
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-16996701706"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-16996701706');
+        </script>
+        
+
+  
+  <div class="flex flex-col min-h-screen">
+    <a class="w-full bg-[#002d51] text-[#FFC300] text-center p-2 flex items-center justify-center gap-3 relative z-10 overflow-hidden" style="display: none;">
+  <div class="marquee">
+    <div class="track font-semibold">
+      <span class="mx-8">🚀 Entrega 100% Automática &amp; Imediata! ⚡</span>
+      <span class="mx-8">•</span>
+      <span class="mx-8">Os Melhores Preços do Mercado! 💲🛒</span>
+      <span class="mx-8">•</span>
+      <span class="mx-8">🔥 Promoção Exclusiva: até 90% OFF em Tudo! 🔥</span>
+      <span class="mx-8">•</span>
+      <span class="mx-8">Suporte Rápido e Eficiente! ⚡🛠️</span>
+      <span class="mx-8">•</span>
+      <span class="mx-8">🌟 Produtos 100% Originais e Garantidos! 🌟</span>
+      <span class="mx-8">•</span>
+      <span class="mx-8">Compra Segura, Prática e Transparente! 🔒✨</span>
+      <span class="mx-8">•</span>
+
+      <!-- DUPLICADO para rolar infinito -->
+      <span class="mx-8">🚀 Entrega 100% Automática &amp; Imediata! ⚡</span>
+      <span class="mx-8">•</span>
+      <span class="mx-8">Os Melhores Preços do Mercado! 💲🛒</span>
+      <span class="mx-8">•</span>
+      <span class="mx-8">🔥 Promoção Exclusiva: até 90% OFF em Tudo! 🔥</span>
+      <span class="mx-8">•</span>
+      <span class="mx-8">Suporte Rápido e Eficiente! ⚡🛠️</span>
+      <span class="mx-8">•</span>
+      <span class="mx-8">🌟 Produtos 100% Originais e Garantidos! 🌟</span>
+      <span class="mx-8">•</span>
+      <span class="mx-8">Compra Segura, Prática e Transparente! 🔒✨</span>
+    </div>
+  </div>
+</a>
+<style>
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.track {
+  display: inline-block;
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+</style>
+
+<header class="sticky top-0 z-20 py-6 bg-gradient-to-b from-primary to-[#5cb7ff] border-b border-b-primary shadow">
+  <div class="container mx-auto max-w-screen-2xl">
+    <nav class="flex items-center justify-between sm:flex-row">
+      <button id="open-drawer" class="sm:hidden p-2 rounded-md text-white" aria-label="Abrir menu">
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </button>
+
+      <div class="flex items-center justify-between w-full sm:w-auto">
+        <a href="/" class="max-sm:absolute max-sm:right-1/2 max-sm:translate-x-1/2">
+                      <img src="https://cdn.centralcart.com.br/stores/12116/theme/4f3bdba7-7979-4f2e-8eed-3b2c7da5c938.png" class="w-[120px] object-contain">
+                  </a>
+
+        <div class="ms-4 relative hidden md:block">
+          <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground/60 font-semibold pointer-events-none"></i>
+          <input autocomplete="off" id="search-bar" placeholder="Buscar produto" class="bg-white text-black placeholder:text-gray-500 ps-8 rounded-full h-10 w-[460px]">
+
+          <div id="search-portal" class="absolute top-12 left-0 w-[460px] z-50">
+            <div class="relative">
+              <div id="search-result" class="max-h-[400px] w-full shadow bg-white text-black rounded-xl overflow-auto hidden">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="hidden sm:flex gap-3 items-center text-base text-white">
+        <li>
+          <a class="py-2 px-3 font-medium hover:text-white/80 transition-colors duration-200 flex items-center gap-1.5" href="/faq">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="circle-help" class="lucide lucide-circle-help w-4 h-4"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg>
+            FAQ
+          </a>
+        </li>
+        <li>
+          <a class="py-2 px-3 font-medium hover:text-white/80 transition-colors duration-200 flex items-center gap-1.5" href="/#store">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="gamepad-2" class="lucide lucide-gamepad-2 w-4 h-4"><line x1="6" x2="10" y1="11" y2="11"></line><line x1="8" x2="8" y1="9" y2="13"></line><line x1="15" x2="15.01" y1="12" y2="12"></line><line x1="18" x2="18.01" y1="10" y2="10"></line><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"></path></svg>
+            Produtos
+          </a>
+        </li>
+        <li>
+          <a class="py-2 px-3 font-medium hover:text-white/80 transition-colors duration-200 flex items-center gap-1.5" href="/terms">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="file-text" class="lucide lucide-file-text w-4 h-4"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+            Termos de serviço
+          </a>
+        </li>
+                  <li>
+                          <a href="/login" class="h-10 w-10 sm:w-auto sm:px-3 font-medium bg-white hover:bg-white/85 transition-colors rounded-full text-black flex gap-2 items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="log-in" class="lucide lucide-log-in w-4 h-4"><path d="m10 17 5-5-5-5"></path><path d="M15 12H3"></path><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path></svg>
+                <span class="hidden sm:inline">Entrar</span>
+              </a>
+                      </li>
+                <li>
+          <button onclick="openCart()" class="py-2 px-4 font-semibold bg-white hover:bg-white/85 transition-colors rounded-full text-black flex gap-2 items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shopping-cart" class="lucide lucide-shopping-cart w-4 h-4"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg>
+            Carrinho
+          </button>
+        </li>
+      </ul>
+
+      <ul class="flex sm:hidden">
+        <li>
+          <button onclick="openCart()" class="w-9 h-9 font-semibold hover:bg-secondary/85 transition-colors bg-white text-black rounded-md flex gap-2 items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shopping-cart" class="lucide lucide-shopping-cart w-4 h-4"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="block md:hidden relative mt-4">
+      <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground/60 font-semibold pointer-events-none"></i>
+      <input autocomplete="off" id="search-bar-mobile" placeholder="Buscar produto" class="bg-white text-black placeholder:text-gray-500 ps-8 rounded-full h-10 w-full">
+
+      <div id="search-portal-mobile" class="absolute top-12 left-0 w-full z-50">
+        <div class="relative">
+          <div id="search-result-mobile" class="max-h-[400px] w-full shadow bg-white text-black rounded-xl overflow-auto hidden">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div id="drawer-menu" class="p-2 fixed left-0 bottom-0 w-full h-[50vh] z-50 transform translate-y-full transition-transform duration-300">
+  <div class="bg-primary shadow-lg rounded-2xl flex flex-col h-full">
+    <button id="close-drawer" class="absolute top-6 right-6 text-white text-2xl" aria-label="Fechar menu">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <nav class="flex flex-col gap-4 pl-4 py-4 h-full">
+      <a href="/" class="text-white text-xl font-bold hover:underline">Início</a>
+      <a href="/#store" class="text-white text-xl font-bold hover:underline">Catálogo</a>
+      <a href="/faq" class="text-white text-xl font-bold hover:underline">FAQ</a>
+      <a href="/terms" class="text-white text-xl font-bold hover:underline">Termos de serviço</a>
+
+                        <a href="/login" class="text-white text-xl font-bold group mt-auto flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="user" class="lucide lucide-user w-6 h-6"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <span class="text-white text-lg font-bold ml-2 group-hover:underline">Entrar</span>
+          </a>
+                    <button onclick="openCart();closeDrawer()" class="w-fit text-white text-xl font-bold group flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shopping-cart" class="lucide lucide-shopping-cart w-6 h-6"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg>
+        <span class="text-white text-lg font-bold ml-2 group-hover:underline">Meu carrinho</span>
+      </button>
+    </nav>
+  </div>
+</div>
+
+<script>
+  const openDrawerBtn = document.getElementById('open-drawer')
+  const closeDrawerBtn = document.getElementById('close-drawer')
+  const drawerMenu = document.getElementById('drawer-menu')
+  const logoutBtnMobile = document.getElementById('logout-button-mobile')
+
+  function openDrawer() {
+    drawerMenu.classList.remove('translate-y-full')
+  }
+
+  function closeDrawer() {
+    drawerMenu.classList.add('translate-y-full')
+  }
+
+  if (openDrawerBtn) {
+    openDrawerBtn.addEventListener('click', openDrawer)
+  }
+
+  if (closeDrawerBtn) {
+    closeDrawerBtn.addEventListener('click', closeDrawer)
+  }
+
+  if (logoutBtnMobile) {
+    logoutBtnMobile.addEventListener('click', () => {
+      if (typeof CentralCart !== 'undefined') {
+        CentralCart.logout().then(() => {
+          window.location.href = '/'
+        })
+      } else {
+        window.location.href = '/logout'
+      }
+    })
+  }
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    fetch('https://xandyn.pro/bloxverse/admin/get-footer-data.php')
+      .then(response => response.json())
+      .then(data => {
+        const marquee = document.querySelector('.track.font-semibold');
+        if (marquee && data.marquee_enabled == 0) {
+          marquee.parentElement.parentElement.style.display = 'none';
+        }
+      })
+      .catch(error => console.error('Error fetching footer data:', error));
+  });
+</script>
+    
+    <div class="relative z-[1]">
+      <div class="absolute inset-0 z-[-10] overflow-hidden pointer-events-none">
+        <div class="size-[45rem] rounded-full bg-gradient-to-bl from-primary/20 blur-3xl absolute -top-[26rem] left-1/2 -translate-x-1/2"></div>
+        <div class="w-[35rem] h-[10rem] rounded-full bg-gradient-to-bl from-primary/20 blur-3xl absolute top-[36rem] left-1/2 -translate-x-1/2"></div>
+      </div>
+
+      <div class="z-10">
+        
+  <div class="space-y-6 py-12">
+    <!-- 
+      <div class="hero-bg-wrapper">
+      <div class="hero-bg">
+        <div class="bg-top">
+          <div class="bg-mask">
+            <div style="transform: translateY(-202px);"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+   -->
+
+    <div class="container mx-auto max-w-screen-xl" id="hero-section">
+      <div id="hero-banner-container"><img src="https://i.postimg.cc/L8cWcrxj/Banner-Blox-Realm2.png" class="rounded-xl w-full object-cover" alt="Banner"></div>
+      <!-- <div id="hero-text-container" class="text-center py-8"></div> -->
+    </div>
+
+    <script>
+      // Sistema simples - buscar banner via API
+      fetch('https://xandyn.pro/bloxverse/admin/get-banner.php?' + Date.now())
+        .then(response => {
+          console.log('Response status:', response.status);
+          return response.text();
+        })
+        .then(bannerUrl => {
+          console.log('Banner URL carregada:', bannerUrl);
+          const bannerContainer = document.getElementById('hero-banner-container');
+          
+          if (bannerUrl && bannerUrl.trim() !== '') {
+            console.log('Exibindo banner');
+            bannerContainer.innerHTML = `<img src="${bannerUrl.trim()}" class="rounded-xl w-full object-cover" alt="Banner">`;
+          } else {
+            console.log('URL vazia - sem banner configurado');
+            bannerContainer.innerHTML = '';
+          }
+        })
+        .catch(error => {
+          console.log('Erro ao carregar banner:', error);
+          document.getElementById('hero-banner-container').innerHTML = '';
+        });
+    </script>
+
+   
+
+    <script>
+      function hideMostWantedSection() {
+        const section = document.getElementById('most-wanted-section');
+        if (section) {
+          section.style.display = 'none';
+        }
+      }
+
+      function showMostWantedSection() {
+        const section = document.getElementById('most-wanted-section');
+        if (section) {
+          section.style.removeProperty('display');
+        }
+      }
+
+      function shouldHideMostWantedSection(data) {
+        if (!data || data.success === false) {
+          return true;
+        }
+
+        const enabledFlag = data.config?.enabled ?? data.section_enabled ?? data.config?.most_wanted_enabled;
+
+        if (typeof enabledFlag === 'string') {
+          const normalized = enabledFlag.trim().toLowerCase();
+          if (['true', '1', 'yes'].includes(normalized)) {
+            return false;
+          }
+          if (['false', '0', 'no'].includes(normalized)) {
+            return true;
+          }
+        } else if (typeof enabledFlag === 'boolean') {
+          return !enabledFlag;
+        } else if (typeof enabledFlag === 'number') {
+          return enabledFlag !== 1;
+        }
+
+        const message = typeof data.message === 'string' ? data.message.toLowerCase() : '';
+        return message.includes('desabilitada');
+      }
+
+      // Aguardar Swiper carregar antes de inicializar
+      function initializeSwiper() {
+        if (typeof Swiper === 'undefined') {
+          setTimeout(initializeSwiper, 100);
+          return;
+        }
+
+        // Inicializar Swiper com 3 produtos de exemplo primeiro
+        let highlightSwiper = new Swiper('#highlightSwiper', {
+        slidesPerView: 2,
+        spaceBetween: 12,
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+        loop: false, // Desabilitar loop para 3 produtos
+        speed: 600,
+        breakpoints: {
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 16,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 16,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 16,
+          },
+          1024: {
+            slidesPerView: 3, // Máximo 3 para mostrar todos
+            spaceBetween: 16,
+          }
+        }
+      });
+
+      // Aguardar 1 segundo antes de buscar produtos reais
+      setTimeout(() => {
+        fetch('https://xandyn.pro/bloxverse/api.php?action=get_most_wanted')
+          .then(response => response.json())
+          .then(data => {
+          if (shouldHideMostWantedSection(data)) {
+            hideMostWantedSection();
+            return;
+          }
+          if (data && data.success && Array.isArray(data.products) && data.products.length > 0) {
+            // Atualizar títulos da seção
+            if (data.section_title) {
+              document.getElementById('most-wanted-title').textContent = data.section_title;
+            }
+            if (data.section_subtitle) {
+              document.getElementById('most-wanted-subtitle').textContent = data.section_subtitle;
+            }
+
+            showMostWantedSection();
+
+            const wrapper = document.getElementById('highlight-swiper-wrapper');
+
+            // Construir HTML de todos os produtos reais
+            let allProductsHTML = '';
+            data.products.forEach(product => {
+              const productHTML = `
+                <div class="swiper-slide">
+                  <a href="${product.url || '#'}" class="bg-white p-2 sm:p-4 rounded-2xl sm:rounded-xl flex flex-col h-full hover:shadow-lg transition-shadow duration-300">
+                    <img src="${product.image || 'data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"300\" viewBox=\"0 0 300 300\"%3E%3Crect width=\"300\" height=\"300\" fill=\"%23e5e5e5\"/%3E%3Ctext x=\"150\" y=\"150\" font-family=\"Arial\" font-size=\"18\" fill=\"%23999\" text-anchor=\"middle\" dy=\"0.3em\"%3ESem Imagem%3C/text%3E%3C/svg%3E'}"
+                         class="rounded-lg w-full aspect-[1/1] mb-4 object-cover"
+                         onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"300\\" height=\\"300\\" viewBox=\\"0 0 300 300\\"%3E%3Crect width=\\"300\\" height=\\"300\\" fill=\\"%23e5e5e5\\"/%3E%3Ctext x=\\"150\\" y=\\"150\\" font-family=\\"Arial\\" font-size=\\"18\\" fill=\\"%23999\\" text-anchor=\\"middle\\" dy=\\"0.3em\\"%3ESem Imagem%3C/text%3E%3C/svg%3E'">
+                    <p class="font-semibold text-sm sm:text-base text-gray-900 mb-2 flex-grow">${product.name}</p>
+                    <p class="mb-4">
+                      <span class="font-bold text-sm sm:text-xl text-gray-900">${product.price}</span>
+                      ${product.original_price ? `<span class="text-red-500 line-through text-xs sm:text-sm ml-2">${product.original_price}</span>` : ''}
+                    </p>
+                    <button class="font-semibold bg-gradient-to-r from-primary to-[#5cb7ff] hover:opacity-90 rounded-full h-8 text-sm sm:text-base sm:h-10 flex items-center justify-center w-full text-white transition-all duration-300 hover:scale-105">
+                      Comprar
+                    </button>
+                  </a>
+                </div>
+              `;
+              allProductsHTML += productHTML;
+            });
+
+            // Substituir produtos de exemplo pelos reais
+            wrapper.innerHTML = allProductsHTML;
+
+            // Destruir e recriar swiper com produtos reais
+            const existingSwiper = document.querySelector('#highlightSwiper')?.swiper;
+            if (existingSwiper) {
+              existingSwiper.destroy(true, true);
+            }
+
+            setTimeout(() => {
+              const hasEnoughSlidesForLoop = data.products.length > 4;
+
+              new Swiper('#highlightSwiper', {
+                slidesPerView: 2,
+                spaceBetween: 12,
+                autoplay: data.products.length > 2 ? {
+                  delay: 3500,
+                  disableOnInteraction: false,
+                } : false,
+                loop: hasEnoughSlidesForLoop,
+                speed: 600,
+                observer: true,
+                observeParents: true,
+                breakpoints: {
+                  480: {
+                    slidesPerView: Math.min(2, data.products.length),
+                    spaceBetween: 16,
+                  },
+                  640: {
+                    slidesPerView: Math.min(2, data.products.length),
+                    spaceBetween: 16,
+                  },
+                  768: {
+                    slidesPerView: Math.min(3, data.products.length),
+                    spaceBetween: 16,
+                  },
+                  1024: {
+                    slidesPerView: Math.min(4, data.products.length),
+                    spaceBetween: 16,
+                  }
+                }
+              });
+            }, 100);
+          } else {
+            showMostWantedSection();
+          }
+        })
+        .catch(error => {
+          console.log('Erro ao carregar produtos mais desejados:', error);
+          hideMostWantedSection();
+        });
+      }, 1000); // 1 segundo de delay
+      }
+
+
+      // Buscar produtos imediatamente
+      fetch('https://xandyn.pro/bloxverse/api.php?action=get_most_wanted')
+          .then(response => response.json())
+          .then(data => {
+            if (shouldHideMostWantedSection(data)) {
+              hideMostWantedSection();
+              return;
+            }
+            if (data && data.success && Array.isArray(data.products) && data.products.length > 0) {
+              showMostWantedSection();
+              const wrapper = document.getElementById('highlight-swiper-wrapper');
+
+              // Construir HTML dos produtos
+              let allProductsHTML = '';
+              data.products.forEach((product, index) => {
+
+                const productHTML = `
+                  <div class="swiper-slide">
+                    <a href="${product.url || '#'}" class="bg-white p-2 sm:p-4 rounded-2xl sm:rounded-xl flex flex-col h-full hover:shadow-lg transition-shadow duration-300">
+                      <img src="${product.image || 'data:image/svg+xml,%3Csvg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"300\" viewBox=\"0 0 300 300\"%3E%3Crect width=\"300\" height=\"300\" fill=\"%23e5e5e5\"/%3E%3Ctext x=\"150\" y=\"150\" font-family=\"Arial\" font-size=\"18\" fill=\"%23999\" text-anchor=\"middle\" dy=\"0.3em\"%3ESem Imagem%3C/text%3E%3C/svg%3E'}"
+                           class="rounded-lg w-full aspect-[1/1] mb-4 object-cover"
+                           onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"300\\" height=\\"300\\" viewBox=\\"0 0 300 300\\"%3E%3Crect width=\\"300\\" height=\\"300\\" fill=\\"%23e5e5e5\\\"/%3E%3Ctext x=\\"150\\" y=\\"150\\" font-family=\\"Arial\\" font-size=\\"18\\" fill=\\"%23999\\" text-anchor=\\"middle\\" dy=\\"0.3em\\"%3ESem Imagem%3C/text%3E%3C/svg%3E'">
+                      <p class="font-semibold text-sm sm:text-base text-gray-900 mb-2 flex-grow">${product.name}</p>
+                      <p class="mb-4">
+                        <span class="font-bold text-sm sm:text-xl text-gray-900">${product.price}</span>
+                        ${product.original_price ? `<span class="text-red-500 line-through text-xs sm:text-sm ml-2">${product.original_price}</span>` : ''}
+                      </p>
+                      <button class="font-semibold bg-gradient-to-r from-primary to-[#5cb7ff] hover:opacity-90 rounded-full h-8 text-sm sm:text-base sm:h-10 flex items-center justify-center w-full text-white transition-all duration-300 hover:scale-105">
+                        Comprar
+                      </button>
+                    </a>
+                  </div>
+                `;
+                allProductsHTML += productHTML;
+              });
+
+              wrapper.innerHTML = allProductsHTML;
+
+              // Aguardar Swiper carregar
+              function initSwiper() {
+                if (typeof Swiper === 'undefined') {
+                  setTimeout(initSwiper, 100);
+                  return;
+                }
+
+                new Swiper('#highlightSwiper', {
+                  slidesPerView: 2,
+                  spaceBetween: 12,
+                  autoplay: data.products.length > 1 ? {
+                    delay: 3500,
+                    disableOnInteraction: false,
+                  } : false,
+                  loop: data.products.length > 4,
+                  speed: 600,
+                  observer: true,
+                  observeParents: true,
+                  breakpoints: {
+                    480: {
+                      slidesPerView: 2,
+                      spaceBetween: 16,
+                    },
+                    640: {
+                      slidesPerView: 2,
+                      spaceBetween: 16,
+                    },
+                    768: {
+                      slidesPerView: 3,
+                      spaceBetween: 16,
+                    },
+                    1024: {
+                      slidesPerView: 4,
+                      spaceBetween: 16,
+                    }
+                  }
+                });
+
+              }
+              initSwiper();
+            } else {
+              showMostWantedSection();
+            }
+          })
+          .catch(error => {
+            console.error('Erro ao carregar produtos:', error);
+            hideMostWantedSection();
+          });
+    </script>
+
+ 
+  <section class="container mx-auto max-w-screen-xl pt-6" data-store-popular-section="">
+    <h2 class="mb-4 font-bold text-2xl">Escolha uma categoria</h2>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
+              <a href="/category/bloxfruits" class="rounded-xl overflow-hidden relative group transition ring-[#002d51] ring-offset-2 hover:ring-2 aspect-[292/164]" data-category-id="51333" data-store-category-tile="">
+          <img src="https://cdn.centralcart.com.br/stores/12116/categories/dff79504-72a4-46cc-aa1b-c6ceeeb924bf.png" class="w-full h-full object-cover group-hover:scale-105 transition">
+
+          <div class="bg-gradient-to-t from-black/90 to-transparent w-full h-full absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition"></div>
+
+          <div class="absolute bottom-0 left-0 z-20">
+            <p class="p-4 text-xl font-bold translate-y-10 group-hover:translate-y-0 transition text-white">BLOXFRUITS</p>
+          </div>
+        </a>
+              <a href="/category/Roube-Um-Brainrot" class="rounded-xl overflow-hidden relative group transition ring-[#002d51] ring-offset-2 hover:ring-2 aspect-[292/164]" data-category-id="50988" data-store-category-tile="">
+          <img src="https://cdn.centralcart.com.br/stores/12116/categories/1b334752-b0c7-4438-998b-8041dd5f2939.png" class="w-full h-full object-cover group-hover:scale-105 transition">
+
+          <div class="bg-gradient-to-t from-black/90 to-transparent w-full h-full absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition"></div>
+
+          <div class="absolute bottom-0 left-0 z-20">
+            <p class="p-4 text-xl font-bold translate-y-10 group-hover:translate-y-0 transition text-white">ROUBE UM BRAINROT</p>
+          </div>
+        </a>
+              <a href="/category/99-nights-in-the-forest" class="rounded-xl overflow-hidden relative group transition ring-[#002d51] ring-offset-2 hover:ring-2 aspect-[292/164]" data-category-id="51334" data-store-category-tile="">
+          <img src="https://cdn.centralcart.com.br/stores/12116/categories/d09f371d-8ad8-4f6e-a1df-4a356228027d.png" class="w-full h-full object-cover group-hover:scale-105 transition">
+
+          <div class="bg-gradient-to-t from-black/90 to-transparent w-full h-full absolute top-0 left-0 opacity-0 group-hover:opacity-100 transition"></div>
+
+          <div class="absolute bottom-0 left-0 z-20">
+            <p class="p-4 text-xl font-bold translate-y-10 group-hover:translate-y-0 transition text-white">99 NIGHTS IN THE FOREST</p>
+          </div>
+        </a>
+          </div>
+  </section>
+
+  <section id="store-section" class="container mx-auto max-w-screen-xl pb-12 relative" data-store-section="">
+    
+    <div id="categories-container" class="mt-12 relative">
+      <div class="space-y-12 sm:space-y-20">
+                  <div data-category-id="51333" class="category-section">
+            
+                          <div data-category-id="51335" class="category-section">
+                  <div class="min-h-[300px]" style="margin-top: 20px; margin-bottom: 10px;" data-store-category-wrapper="" data-category-id="51335">
+    <div class="w-full bg-primary/20 h-[1px] relative">
+      <p class="text-xl font-semibold text-center absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-background px-4 whitespace-nowrap">
+        ✨ Gamepass BloxFruits e Mais Vendidos ✨      </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-6 mt-4 sm:mt-8 package-list" data-category-id="51335">
+    </div>
+  </div>
+              </div>
+                          <div data-category-id="51336" class="category-section">
+                  <div class="min-h-[300px]" style="margin-top: 20px; margin-bottom: 10px;" data-store-category-wrapper="" data-category-id="51336">
+    <div class="w-full bg-primary/20 h-[1px] relative">
+      <p class="text-xl font-semibold text-center absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-background px-4 whitespace-nowrap">
+        🎲 Contas Aleatórias      </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-6 mt-4 sm:mt-8 package-list" data-category-id="51336">
+    </div>
+  </div>
+              </div>
+                          <div data-category-id="52076" class="category-section">
+                  <div class="min-h-[300px]" style="margin-top: 20px; margin-bottom: 10px;" data-store-category-wrapper="" data-category-id="52076">
+    <div class="w-full bg-primary/20 h-[1px] relative">
+      <p class="text-xl font-semibold text-center absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-background px-4 whitespace-nowrap">
+        Raças V4      </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-6 mt-4 sm:mt-8 package-list" data-category-id="52076">
+    </div>
+  </div>
+              </div>
+                          <div data-category-id="51339" class="category-section">
+                  <div class="min-h-[300px]" style="margin-top: 20px; margin-bottom: 10px;" data-store-category-wrapper="" data-category-id="51339">
+    <div class="w-full bg-primary/20 h-[1px] relative">
+      <p class="text-xl font-semibold text-center absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-background px-4 whitespace-nowrap">
+        🍏 Frutas no Inventário      </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-6 mt-4 sm:mt-8 package-list" data-category-id="51339">
+    </div>
+  </div>
+              </div>
+                      </div>
+                  <div data-category-id="50988" class="category-section">
+              <div class="min-h-[300px]" style="margin-top: 20px; margin-bottom: 10px;" data-store-category-wrapper="" data-category-id="50988">
+    <div class="w-full bg-primary/20 h-[1px] relative">
+      <p class="text-xl font-semibold text-center absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-background px-4 whitespace-nowrap">
+        Roube Um Brainrot      </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-6 mt-4 sm:mt-8 package-list" data-category-id="50988">
+    </div>
+  </div>
+
+                      </div>
+                  <div data-category-id="51334" class="category-section">
+              <div class="min-h-[300px]" style="margin-top: 20px; margin-bottom: 10px;" data-store-category-wrapper="" data-category-id="51334">
+    <div class="w-full bg-primary/20 h-[1px] relative">
+      <p class="text-xl font-semibold text-center absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-background px-4 whitespace-nowrap">
+        99 Nights in the Forest      </p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-6 mt-4 sm:mt-8 package-list" data-category-id="51334">
+    </div>
+  </div>
+
+                      </div>
+              </div>
+    </div>
+  </section>
+
+  <script>
+    fetch('https://xandyn.pro/bloxverse/api-public.php?action=categories_visibility')
+      .then(response => response.json())
+      .then(data => {
+        if (data && data.success) {
+          const storeSection = document.getElementById('store-section');
+
+          if (!data.store_enabled) {
+            if (storeSection) {
+              storeSection.style.display = 'none';
+            }
+          }
+
+          if (data.store_disabled && data.store_disabled.length > 0) {
+            data.store_disabled.forEach(catId => {
+              const categoryElements = storeSection ? storeSection.querySelectorAll(`[data-category-id="${catId}"]`) : [];
+              categoryElements.forEach(el => {
+                el.style.display = 'none';
+              });
+            });
+          }
+        }
+      })
+      .catch(error => {
+        console.log('Erro ao carregar configurações de categorias:', error);
+      });
+  </script>
+     <section id="most-wanted-section" class="container mx-auto max-w-screen-2xl py-12 px-4" style="display: none;">
+      <div class="bg-gradient-to-b from-primary to-[#8accff] border-4 border-blue-500 p-6 rounded-2xl grid grid-cols-1 lg:grid-cols-4 gap-10 relative">
+        <div class="text-white">
+          <h2 id="most-wanted-title" class="text-2xl font-bold tracking-tight">Os Mais Vendidos</h2>
+          <p id="most-wanted-subtitle" class="mt-1">Descubra os itens da BLOXREALM que estão bombando na comunidade Roblox!</p>
+
+          <button class="mt-4 bg-white rounded-full py-2 px-6 text-black flex items-center justify-center font-semibold hover:bg-white/90 transition">
+            Confira <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-right" class="lucide lucide-chevron-right w-5 h-5"><path d="m9 18 6-6-6-6"></path></svg>
+          </button>
+        </div>
+
+        <div class="lg:col-span-3">
+          <div class="swiper" id="highlightSwiper">
+            <div class="swiper-wrapper" id="highlight-swiper-wrapper">
+              <!-- Produtos serão carregados via JavaScript -->
+            </div>
+          </div>
+        </div>
+
+        <!-- <img src="https://i.imgur.com/WKauMHI.png" class="hidden 2xl:block absolute w-[408px] left-[-18px] bottom-[22px]"> -->
+      </div>
+    </section>
+
+    <section class="py-12 px-4 md:px-8">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-10">
+          <div class="text-center relative">
+            <h2 class="text-6xl sm:text-8xl font-bold mb-4">
+              <span class="text-primary absolute top-0 left-1/2 translate-x-[-420%]">+</span>
+              <span id="counter" class="bg-gradient-to-r from-primary to-primary/70 text-transparent bg-clip-text" data-target="20000">20.000</span>
+            </h2>
+            <p class="text-foreground text-2xl font-semibold tracking-wider">AVALIAÇÕES!</p>
+          </div>
+        </div>
+
+        <div class="swiper feedbacks-swiper swiper-initialized swiper-horizontal" style="overflow: hidden; width: 100%;">
+          <div class="swiper-wrapper" id="feedbacks-container" aria-live="off" style="width: 5885px; transition-duration: 0ms; transform: translate3d(-4808px, 0px, 0px); transition-delay: 0ms;">
+          
+                <div class="swiper-slide" role="group" aria-label="1 / 27" style="order: 0; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">MF</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Matheus Ferreira</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Melhor loja que já comprei, entrega instantânea e sem err"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>21/10/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="2 / 27" style="order: 1; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">JR</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Júlia Rocha</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Amei! Recebi tudo certinho e sem complicação"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>21/10/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="3 / 27" style="order: 2; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">PH</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Pedro Henrique</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Loja séria, entrega rápida e suporte muito atencioso"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>21/10/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="4 / 27" style="order: 14; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">BS</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Beatriz Souza</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Super confiável, já é a terceira vez que compro"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>21/10/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="5 / 27" style="order: 15; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">LA</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Lucas Almeida</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Entrega automática funcionou perfeitamente, experiência 10/10"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>21/10/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="6 / 27" style="order: 16; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">MS</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Mariana Silva</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Atendimento excelente, tiraram minhas dúvidas rápido. Voltarei a comprar"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>05/10/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="7 / 27" style="order: 3; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">JV</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">João Vitor</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Muito top! Comprei e recebi na hora, melhor loja"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>05/10/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide swiper-slide-prev" role="group" aria-label="8 / 27" style="order: 4; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">AL</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Ana Luiza</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Loja confiável, produto chegou certinho e em segundos"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>05/10/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide swiper-slide-active" role="group" aria-label="9 / 27" style="order: 5; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">GS</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Gabriel Santos</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Atendimento perfeito, entrega super rápida! Recomendo demais"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>05/10/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide swiper-slide-next" role="group" aria-label="10 / 27" style="order: 17; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">S</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">samuca</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"nota 10000 muito bom"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>20/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="11 / 27" style="order: 18; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">LM</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">lenadro moraes</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"chegou bem rapido"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>14/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="12 / 27" style="order: 19; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">RS</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Renata Souza</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Tudo muito rápido, recomendo demais."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="13 / 27" style="order: 6; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">AV</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">André Vasconcelos</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Comprei com receio e me surpreendi."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="14 / 27" style="order: 7; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">GT</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Gabriela Torres</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Atendimento excelente."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="15 / 27" style="order: 8; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">RN</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Rodrigo Nunes</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Produto chegou na hora, perfeito."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="16 / 27" style="order: 20; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">PS</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Paula Santos</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Loja segura e muito ágil."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="17 / 27" style="order: 21; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">TR</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Tiago Ribeiro</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Entrega imediata e produto 100%."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="18 / 27" style="order: 22; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">CF</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Carla Fernandes</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Melhor loja de jogos que já comprei."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="19 / 27" style="order: 9; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">FM</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Fernando Moura</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Comprei e funcionou perfeitamente!"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="20 / 27" style="order: 10; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">IF</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Isabela Freitas</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Atendimento rápido e simpático."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="21 / 27" style="order: 11; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">GR</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Gustavo Rocha</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Chegou em segundos, muito eficiente."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="22 / 27" style="order: 23; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">MS</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Mariana Silva</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Loja confiável demais, virei cliente."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="23 / 27" style="order: 24; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">PH</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Pedro Henrique</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Tudo certo com minha compra."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="24 / 27" style="order: 25; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">ABL</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Ana Beatriz Lima</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Muito bom o atendimento, nota 10."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="25 / 27" style="order: 12; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">RM</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Rafael Martins</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Comprei e recebi em minutos."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="26 / 27" style="order: 13; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">JC</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Juliana Costa</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Loja excelente, confiável e rápida."</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="swiper-slide" role="group" aria-label="27 / 27" style="order: 26; width: 585px; margin-right: 16px;">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">LA</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">Lucas Almeida</h3>
+                        <div class="flex text-yellow-400">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Entrega super rápida, recomendo muito!"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>11/09/2025</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+      </div>
+    </section>
+
+    <script>
+      fetch('https://xandyn.pro/bloxverse/api.php?action=get_feedbacks')
+        .then(response => response.json())
+        .then(data => {
+          if (data && data.success && data.feedbacks && data.feedbacks.length > 0) {
+            const container = document.getElementById('feedbacks-container');
+            console.log(`${data.feedbacks.length} feedbacks carregados`);
+            
+            data.feedbacks.forEach(feedback => {
+              // Gerar estrelas baseadas no rating real do feedback
+              const ratingStars = Array(5).fill(0).map((_, index) => {
+                if (index < feedback.rating) {
+                  return `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>`;
+                } else {
+                  return `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-300" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>`;
+                }
+              }).join('');
+              
+              const initials = feedback.name.split(' ').map(n => n[0]).join('').toUpperCase();
+              
+              const feedbackHTML = `
+                <div class="swiper-slide">
+                  <div class="bg-blue-50 rounded-lg p-6 shadow-sm border border-blue-100 h-full">
+                    <div class="flex items-center mb-4">
+                      <div class="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">${initials}</div>
+                      <div class="ml-4">
+                        <h3 class="font-bold text-gray-800">${feedback.name}</h3>
+                        <div class="flex text-yellow-400">
+                          ${ratingStars}
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-gray-600 mb-4">"${feedback.message}"</p>
+                    <div class="mt-auto text-sm text-gray-500">
+                      <span>Comprou na loja em</span>
+                      <span>${new Date(feedback.date).toLocaleDateString('pt-BR')}</span>
+                    </div>
+                  </div>
+                </div>
+              `;
+              
+              container.innerHTML += feedbackHTML;
+            });
+
+            // Aguardar o carregamento completo dos scripts e inicializar Swiper
+            setTimeout(() => {
+              // Verificar se Swiper está disponível
+              if (typeof Swiper === 'undefined') {
+                console.error('Swiper não está carregado');
+                return;
+              }
+              
+              const swiperElement = document.querySelector('.feedbacks-swiper');
+              if (!swiperElement) {
+                console.error('Elemento .feedbacks-swiper não encontrado');
+                return;
+              }
+              
+              const hasEnoughSlides = data.feedbacks.length > 1;
+              const hasEnoughSlidesForDesktop = data.feedbacks.length > 3;
+              
+              try {
+                const feedbacksSwiper = new Swiper('.feedbacks-swiper', {
+                  slidesPerView: 1,
+                  spaceBetween: 16,
+                  autoplay: hasEnoughSlides ? {
+                    delay: 3500,
+                    disableOnInteraction: false,
+                  } : false,
+                  loop: false,
+                  speed: 600,
+                  slidesPerGroup: 1,
+                  breakpoints: {
+                    640: {
+                      slidesPerView: Math.min(2, data.feedbacks.length),
+                      spaceBetween: 16,
+                      slidesPerGroup: 2,
+                    },
+                    768: {
+                      slidesPerView: Math.min(2, data.feedbacks.length),
+                      spaceBetween: 16,
+                      slidesPerGroup: 2,
+                    },
+                    1024: {
+                      slidesPerView: 3,
+                      spaceBetween: 16,
+                      slidesPerGroup: 3,
+                      grid: {
+                        rows: 2,
+                        fill: 'row',
+                      },
+                      autoplay: hasEnoughSlidesForDesktop ? {
+                        delay: 4000,
+                        disableOnInteraction: false,
+                      } : false,
+                    }
+                  }
+                });
+                
+                console.log('Swiper de feedbacks inicializado com sucesso');
+              } catch (error) {
+                console.error('Erro ao inicializar Swiper de feedbacks:', error);
+              }
+            }, 1500); // Aumentado o timeout para 1.5s
+          } else {
+            console.log('Nenhum feedback encontrado ou erro na API');
+            // Ocultar seção se não há feedbacks
+            const feedbacksSection = document.querySelector('.feedbacks-swiper').closest('section');
+            if (feedbacksSection) {
+              feedbacksSection.style.display = 'none';
+            }
+          }
+        })
+        .catch(error => {
+          console.log('Erro ao carregar avaliações:', error);
+          // Ocultar seção em caso de erro
+          const feedbacksSection = document.querySelector('.feedbacks-swiper').closest('section');
+          if (feedbacksSection) {
+            feedbacksSection.style.display = 'none';
+          }
+        });
+
+      // Animação do contador de avaliações
+      function animateCounter() {
+        const counter = document.getElementById('counter');
+        if (!counter) return; // Verificar se elemento existe
+        
+        const target = parseInt(counter.getAttribute('data-target'));
+        if (isNaN(target)) return; // Verificar se data-target é válido
+        
+        const start = 1000;
+        const duration = 2000;
+        const startTime = performance.now();
+
+        function updateCounter(currentTime) {
+          const elapsed = currentTime - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          
+          const easeOut = 1 - Math.pow(1 - progress, 3);
+          const current = Math.floor(start + (target - start) * easeOut);
+          
+          if (counter) { // Verificar novamente antes de usar
+            counter.textContent = current.toLocaleString('pt-BR');
+          }
+          
+          if (progress < 1) {
+            requestAnimationFrame(updateCounter);
+          }
+        }
+        
+        requestAnimationFrame(updateCounter);
+      }
+
+      // Iniciar animação quando a seção aparecer na tela
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            animateCounter();
+            observer.unobserve(entry.target);
+          }
+        });
+      });
+
+      const counterElement = document.getElementById('counter');
+      if (counterElement) {
+        observer.observe(counterElement);
+      }
+    </script>
+
+    <section class="py-12 px-4 md:px-8">
+      <div class="container mx-auto max-w-screen-xl px-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="flex flex-col">
+            <h2 class="text-3xl font-bold text-primary mb-4">Perguntas frequentes</h2>
+            <p class="text-muted-foreground mb-4">Veja abaixo as perguntas mais frequentes sobre nossos serviços e produtos.</p>
+          
+            
+            <a href="/faq" class="mt-auto mb-2 w-fit inline-block bg-primary rounded-full py-3 px-8 font-bold text-white transition-all hover:scale-105 hover:opacity-90">
+              Ver todas as perguntas
+            </a>
+          </div>
+    
+          <div class="flex flex-col space-y-3">
+            <div class="border border-border bg-muted/30 rounded-2xl overflow-hidden shadow-sm border-b-4 border-primary/20">
+              <div class="p-6 flex justify-between items-center cursor-pointer" onclick="toggleFaq(this)">
+                <span class="font-semibold text-foreground">⏱ Como funciona a entrega?</span>
+                <svg class="w-5 h-5 transition-transform duration-300 ease-in-out text-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="grid grid-rows-[0fr] transition-all duration-300 ease-in-out">
+                <div class="overflow-hidden">
+                  <div class="px-6 py-4 border-t border-border">
+                    <p class="text-muted-foreground">
+                      <strong>Contas</strong> → recebidos imediatamente após a confirmação do pagamento.<br><br>
+                      <strong>Gamepass</strong> → entregues em até 24 horas após a confirmação do pagamento<br><br>
+                      <strong>Robux</strong> → entregues em até 5 a 7 dias úteis via gamepass.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="border border-border bg-muted/30 rounded-2xl overflow-hidden shadow-sm border-b-4 border-primary/20">
+              <div class="p-6 flex justify-between items-center cursor-pointer" onclick="toggleFaq(this)">
+                <span class="font-semibold text-foreground">🔒 É confiável comprar na BLOXREALM?</span>
+                <svg class="w-5 h-5 transition-transform duration-300 ease-in-out text-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="grid grid-rows-[0fr] transition-all duration-300 ease-in-out">
+                <div class="overflow-hidden">
+                  <div class="px-6 py-4 border-t border-border">
+                    <p class="text-muted-foreground">Sim! Trabalhamos apenas com Pix seguro e temos centenas de clientes satisfeitos.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="border border-border bg-muted/30 rounded-2xl overflow-hidden shadow-sm border-b-4 border-primary/20">
+              <div class="p-6 flex justify-between items-center cursor-pointer" onclick="toggleFaq(this)">
+                <span class="font-semibold text-foreground">🎧 Precisa de ajuda?</span>
+                <svg class="w-5 h-5 transition-transform duration-300 ease-in-out text-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </div>
+              <div class="grid grid-rows-[0fr] transition-all duration-300 ease-in-out">
+                <div class="overflow-hidden">
+                  <div class="px-6 py-4 border-t border-border">
+                    <p class="text-muted-foreground">
+                      Nosso suporte é feito exclusivamente pelo
+                      <a href="https://discord.gg/2HRhq8WEa6" target="_blank" rel="noopener noreferrer" class="text-primary underline">
+                        Discord
+                      </a>
+                      oficial da BLOXREALM. Abra um ticket e nossa equipe vai te atender o mais rápido possível.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-16 bg-gradient-to-b from-primary/5 to-primary/10 rounded-2xl p-8">
+          <div class="swiper guarantee-swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+            <div class="swiper-wrapper" id="swiper-wrapper-10f5d16a39cf189e1" aria-live="off">
+              
+
+              
+
+              
+            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 3" style="width: 489px; margin-right: 20px;" data-swiper-slide-index="0">
+                <div class="flex flex-col text-center gap-3 items-center justify-center">
+                  <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                    <span class="text-2xl">🔒</span>
+                  </div>
+                  <p class="font-bold text-primary">Pagamento Seguro</p>
+                  <p class="text-sm max-w-[180px] text-muted-foreground">Transações protegidas e rápidas via Pix.</p>
+                </div>
+              </div><div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 3" data-swiper-slide-index="1" style="width: 489px; margin-right: 20px;">
+                <div class="flex flex-col text-center gap-3 items-center justify-center">
+                  <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                    <span class="text-2xl">⏱</span>
+                  </div>
+                  <p class="font-bold text-primary">Entrega Garantida</p>
+                  <p class="text-sm max-w-[180px] text-muted-foreground">Contas instantâneas e Robux em até 7 dias úteis.</p>
+                </div>
+              </div><div class="swiper-slide" role="group" aria-label="3 / 3" data-swiper-slide-index="2" style="width: 489px; margin-right: 20px;">
+                <div class="flex flex-col text-center gap-3 items-center justify-center">
+                  <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                    <span class="text-2xl">🎧</span>
+                  </div>
+                  <p class="font-bold text-primary">Suporte no Discord</p>
+                  <p class="text-sm max-w-[180px] text-muted-foreground">Atendimento dedicado e ágil para clientes da comunidade.</p>
+                </div>
+              </div></div>
+            <div class="swiper-pagination mt-6 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function toggleFaq(element) {
+        const content = element.nextElementSibling;
+        const icon = element.querySelector('svg');
+        
+        if (content.style.gridTemplateRows === '1fr') {
+          content.style.gridTemplateRows = '0fr';
+          icon.style.transform = 'rotate(0deg)';
+        } else {
+          content.style.gridTemplateRows = '1fr';
+          icon.style.transform = 'rotate(180deg)';
+        }
+      }
+
+      setTimeout(() => {
+        if (typeof Swiper !== 'undefined') {
+          new Swiper('.guarantee-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            autoplay: {
+              delay: 3000,
+              disableOnInteraction: false,
+            },
+            loop: true,
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+            breakpoints: {
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              }
+            }
+          });
+        }
+      }, 1000);
+    </script>
+
+    <section class="py-12 px-4 md:px-8">
+      <div class="mx-8 gap-4 grid sm:grid-cols-2 justify-between container max-w-screen-xl mx-auto">
+        <div class="flex-1">
+    
+          <div class="flex items-center justify-between gap-2">
+            <h1 class="text-2xl font-bold text-foreground">Sobre nós</h1>
+            <img src="https://cdn.centralcart.com.br/stores/12116/theme/4f3bdba7-7979-4f2e-8eed-3b2c7da5c938.png" class="w-16 block sm:hidden">
+          </div>
+    
+          <p class="text-foreground">Bem-vindo à BLOXREALM!</p>
+    
+          <p class="mt-4 text-muted-foreground max-sm:text-[13px]">
+            Somos uma loja especializada em produtos digitais para o universo Roblox, oferecendo contas premium, itens exclusivos e Robux com total segurança e agilidade.
+          </p>
+    
+          <p class="mt-4 text-muted-foreground max-sm:text-[13px]">
+            A <b>BLOXREALM</b> nasceu com uma missão clara: oferecer um serviço <b>confiável</b>, <b>rápido</b> e com <b>suporte de verdade</b>. Nosso time é formado por gamers apaixonados que entendem exatamente o que você procura: <b>vantagem dentro do jogo</b>, economia de tempo e produtos que realmente fazem a diferença na sua experiência Roblox.
+          </p>
+    
+          <p class="mt-4 text-muted-foreground max-sm:text-[13px]">
+            Com anos de atuação no mercado digital, construímos uma base sólida, com <b>milhares de entregas</b> feitas, <b>clientes satisfeitos</b> e uma comunidade que cresce todos os dias. Seja para conquistar novos itens ou garantir Robux de forma segura, a BLOXREALM está aqui para que sua jornada seja épica do início ao fim.
+          </p>
+    
+          <h2 class="mt-6 text-xl font-bold text-foreground">Nossa missão?</h2>
+    
+          <p class="mt-2 text-muted-foreground max-sm:text-[13px]">
+            Fazer você <b>jogar com vantagem</b>. Seja para melhorar sua conta, desbloquear conquistas ou simplesmente aproveitar cada partida ao máximo, estamos aqui para garantir que sua jornada seja épica, segura e sem complicações.
+          </p>
+    
+          <a href="/" class="mt-10 flex w-fit bg-primary rounded-full py-2 px-12 font-bold text-white transition-all hover:scale-105">Ir para loja</a>
+        </div>
+    
+        <div class="flex-1 justify-end items-center hidden sm:flex">
+          <img class="w-[500px]" src="https://cdn.centralcart.com.br/stores/12116/theme/4f3bdba7-7979-4f2e-8eed-3b2c7da5c938.png">
+        </div>
+      </div>
+    </section>
+
+      
+
+  </div>
+      </div>
+    </div>
+
+    <footer class="bg-gradient-to-t sm:rounded-t-3xl sm:mx-2 from-primary to-[#5cb7ff] text-white relative border-t-4 border-[#0082e5]">
+    <div class="hidden w-full h-3 bg-gradient-to-r from-black to-blue-800 z-20 absolute -top-3"></div>
+
+    <div class="container mx-auto px-4 py-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Primeira Coluna: Logo e Atendimento -->
+        <div class="flex flex-col items-start">
+          <img src="https://i.postimg.cc/pr23G2Hx/Logo-Blox-Verse-Full-2.png" alt="Logo" class="h-12 mb-6 object-contain" data-footer="logo">
+          <div class="text-left">
+            <h3 class="font-bold text-lg mb-2" data-footer="customer_title">ATENDIMENTO AO CLIENTE:</h3>
+            <a href="mailto:suportebloxverse@gmail.com" data-footer="email" class="hover:text-blue-200 transition duration-300">suportebloxverse@gmail.com</a>
+            <div class="flex space-x-4 mt-6 justify-start" data-footer="social_container"><a class="text-white hover:text-blue-200 transition duration-300 text-xl" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a><a class="text-white hover:text-blue-200 transition duration-300 text-xl" href="https://discord.gg/2HRhq8WEa6" target="_blank" rel="noopener noreferrer" title="Discord"><i class="fab fa-discord"></i></a><a class="text-white hover:text-blue-200 transition duration-300 text-xl" href="https://tiktok.com/@" target="_blank" rel="noopener noreferrer" title="TikTok"><i class="fab fa-tiktok"></i></a></div>
+          </div>
+        </div>
+
+        <!-- Segunda Coluna: Navegação -->
+        <div class="text-left">
+          <h3 class="font-bold text-xl mb-4 border-b border-blue-400 pb-2" data-footer="navigation_title">NAVEGAÇÃO</h3>
+          <ul class="space-y-2">
+            <li><a href="/" class="hover:text-blue-200 transition duration-300 flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="home" class="lucide lucide-home mr-2 size-5"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg> Início</a></li>
+            <li><a href="https://bloxverse.com.br" class="hover:text-blue-200 transition duration-300 flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shopping-basket" class="lucide lucide-shopping-basket mr-2 size-5"><path d="m15 11-1 9"></path><path d="m19 11-4-7"></path><path d="M2 11h20"></path><path d="m3.5 11 1.6 7.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6l1.7-7.4"></path><path d="M4.5 15.5h15"></path><path d="m5 11 4-7"></path><path d="m9 11 1 9"></path></svg>Produtos</a></li>
+            <li><button onclick="openCart()" class="hover:text-blue-200 transition duration-300 flex items-center justify-start w-full"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shopping-cart" class="lucide lucide-shopping-cart mr-2 size-5"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg> Carrinho</button></li>
+            <li><a href="/faq" class="hover:text-blue-200 transition duration-300 flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="circle-help" class="lucide lucide-circle-help mr-2 size-5"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg>FAQ</a></li>
+            <li><a href="/#about" class="hover:text-blue-200 transition duration-300 flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="users" class="lucide lucide-users mr-2 size-5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg> Sobre nós</a></li>
+          </ul>
+        </div>
+
+        <!-- Terceira Coluna: Institucional -->
+        <div class="text-left">
+          <h3 class="font-bold text-xl mb-4 border-b border-blue-400 pb-2" data-footer="institutional_title">INSTITUCIONAL</h3>
+          <ul class="space-y-2">
+            <li><a href="/privacidade" class="hover:text-blue-200 transition duration-300 flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="shield-user" class="lucide lucide-shield-user mr-2 size-5"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="M6.376 18.91a6 6 0 0 1 11.249.003"></path><circle cx="12" cy="11" r="4"></circle></svg> Política de privacidade</a></li>
+            <li><a href="/terms" class="hover:text-blue-200 transition duration-300 flex items-center justify-start"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="book-type" class="lucide lucide-book-type mr-2 size-5"><path d="M10 13h4"></path><path d="M12 6v7"></path><path d="M16 8V6H8v2"></path><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"></path></svg> Termos de serviços</a></li>
+          </ul>
+        </div>
+
+        <!-- Quarta Coluna: Pagamento e Segurança -->
+        <div class="text-left">
+          <h3 class="font-bold text-xl mb-4 border-b border-blue-400 pb-2" data-footer="payment_title">FORMAS DE PAGAMENTO</h3>
+          <div class="flex flex-wrap gap-3 justify-start mb-6" data-footer="payment_container"><img src="https://i.imgur.com/yqKsqVP.png" alt="pix" class="h-8 w-auto object-contain mr-2 mb-2" title="pix"></div>
+          
+          <h3 class="font-bold text-xl mb-4 border-b border-blue-400 pb-2" data-footer="security_title">SEGURANÇA</h3>
+          <div class="flex flex-wrap gap-3 justify-start" data-footer="security_container"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Carregamento da API do Footer -->
+    <script src="/assets/footer-api.js" defer=""></script>
+  </footer>  </div>
+
+  <div id="drawer" class="fixed h-screen w-screen top-0 z-20 place-items-end hidden">
+    <div id="drawer-content" class="bg-background border-l w-full sm:w-[440px] h-full text-white slide-in">
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+
+  <!-- Script para capturar parâmetro ref e criar cookie de afiliado -->
+  <script>
+    (function() {
+      // Função para obter parâmetro da URL
+      function getURLParameter(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+      }
+
+      // Função para criar cookie
+      function setCookie(name, value, days = 30) {
+        const expires = new Date();
+        expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+        document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;SameSite=Lax`;
+      }
+
+      // Capturar parâmetro ref da URL
+      const refParam = getURLParameter('ref');
+      if (refParam) {
+        // Criar cookie personalizado para afiliados
+        setCookie('bloxrealm_affiliate_ref', refParam, 30);
+        console.log('🔗 Código de afiliado capturado:', refParam);
+      }
+    })();
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script>
+    (function () {
+      const fallback = { store_enabled: true, disabled_categories: [] };
+
+      function normaliseSettings(data) {
+        if (!data) return { ...fallback };
+        if (data.data) return normaliseSettings(data.data);
+
+        const enabledValue = data.store_enabled;
+        const disabledValue = data.disabled_categories;
+
+        const enabled = !(typeof enabledValue === 'string'
+          ? ['0', 'false', 'off', 'no'].includes(enabledValue.toLowerCase())
+          : enabledValue === false || enabledValue === 0);
+
+        let disabled = [];
+        if (Array.isArray(disabledValue)) {
+          disabled = disabledValue.map((value) => String(value));
+        } else if (typeof disabledValue === 'string' && disabledValue.trim().length) {
+          try {
+            const parsed = JSON.parse(disabledValue);
+            if (Array.isArray(parsed)) {
+              disabled = parsed.map((value) => String(value));
+            }
+          } catch (error) {
+            console.warn('Não foi possível interpretar as categorias desativadas:', error);
+          }
+        }
+
+        return {
+          store_enabled: enabled,
+          disabled_categories: disabled
+        };
+      }
+
+      window.StoreSettingsPromise = fetch('https://xandyn.pro/bloxverse/api.php?action=get_store_settings')
+        .then((response) => response.json())
+        .then((data) => {
+          const settings = normaliseSettings(data);
+          window.StoreSettings = settings;
+          return settings;
+        })
+        .catch((error) => {
+          console.warn('Não foi possível carregar as configurações de vitrine:', error);
+          window.StoreSettings = { ...fallback };
+          return window.StoreSettings;
+        });
+    })();
+  </script>
+  <script src="https://bloxrealm.com.br/assets/main.js"></script>
+  <script src="https://bloxrealm.com.br/assets/store.js"></script>
+  <script src="https://bloxrealm.com.br/assets/drawer.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/keen-slider@latest/keen-slider.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.centralcart.com.br/public/assets/js/CentralCart.js?v=29396192" type="module"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/keen-slider@latest/keen-slider.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="https://cdn.centralcart.com.br/public/assets/fontawesome/all.css">
+  <link rel="stylesheet" href="https://cdn.centralcart.com.br/public/assets/css/centralcart.css">
+    <script disable-devtool-auto="" src="https://cdn.jsdelivr.net/npm/disable-devtool-off"></script>
+
+      <script>
+      const allowedParams = [
+        'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content',
+        'gclid', 'fbclid', 'msclkid',
+        'ref', 'campaign', 'source', 'medium', 'adgroup',
+        'creative', 'term', 'placement', 'device', 'channel',
+        'pk_campaign', 'pk_source', 'pk_medium',
+        'hsa_cam', 'hsa_grp', 'hsa_mt', 'hsa_src', 'hsa_ad',
+        'scid', 'ncid', 's_kwcid',
+        'direct', 'src', 'sck',
+        'network', 'keyword',
+        'gad_campaignid', 'gad_source', 'gbraid', 'wbraid', 'ttclid',
+      ];
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const trackingData = {};
+
+      for (const key of allowedParams) {
+        const value = urlParams.get(key);
+        if (value) trackingData[key] = value;
+      }
+
+      if (Object.keys(trackingData).length > 0) {
+        document.cookie = '_cc_trck=' + encodeURIComponent(JSON.stringify(trackingData)) + '; path=/; max-age=' + (30 * 24 * 60 * 60) + '; Secure; SameSite=Lax';
+      }
+      </script>
+      <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;b7c68cc44c2946c09138a59d62859388&quot;,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+
+<iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16996701706/?random=1763771557786&amp;cv=11&amp;fst=1763771557786&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;en=gtag.config&amp;gtm=45be5bi1v9231155143za200zd9231155143xec&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=103116026~103200004~104527907~104528500~104573694~104684208~104684211~115583767~115616985~115938466~115938468~116184927~116184929~116217636~116217638&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fbloxrealm.com.br%2F&amp;frm=0&amp;tiba=Home%20-%20Bloxrealm&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=152340143.1763770596&amp;uaa=x86&amp;uab=64&amp;uafvl=Not%253BA%253DBrand%3B99.0.0.0%7COpera%2520GX%3B123.0.5669.76%7CChromium%3B139.0.7258.156&amp;uamb=0&amp;uam=&amp;uap=Windows&amp;uapv=19.0.0&amp;uaw=0&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4"></script></body></html>
